@@ -38,9 +38,9 @@ ol, ul {
 	list-style: none;
 }
 
-pre code {
+code {
   font-family: "courier new",Consolas;
-  color: crimson;
+  color: black;
   padding: 2px;
   font-size: 105%;
 }
