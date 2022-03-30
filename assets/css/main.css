@@ -39,8 +39,11 @@ ol, ul {
 }
 
 code {
-			  background-color:#EEEEEE;
-			  font-family:Courier New,Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
+  font-family: "courier new",Consolas;
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
 }
 
 blockquote, q {
