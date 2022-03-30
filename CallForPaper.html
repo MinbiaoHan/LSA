@@ -94,16 +94,31 @@
 									
 									<p>To address feedback from reviewers, authors are permitted to include one page of additional content in the main body. Inclusion of appendices in the camera-ready submission is optional. However, if appendices are not included in your submission, please provide a reference to the full version of your paper (hosted on a paper repository such as arxiv) in the main body of your camera-ready paper.</p>
 									<p>
-									<ul>
-											<li>Deanonymize your submission by uncommenting the <em> \documentclass[sigconf]{aamas}</em> command in the AAMAS template.</li>
-											<li>Separate any indicated keywords in your submission with semicolons.</li>
-											<li>Download and use an updated version of aamas.cls found <a href="assets/aamas.cls">here</a>. </li>
-											<li>Make sure there are no headers or footers (so do not remove the command <em>\fancyhead{}</em>)</li>
+										Please adhere to the following instructions when submitting:
+										<ul>
+											<li>Deanonymize your submission by replacing the <code>\documentclass[sigconf,anonymous]{aamas}<\code> command with the <code>\documentclass[sigconf]{aamas}</code> command.</li>
 											<li>Every final submission must include an abstract section and keywords (separated by semicolon).</li>
-											<li>Replace the copyright block in the AAMAS template with the copyright information we sent out by email.</li>
+											<!--<li>Download and use an updated version of aamas.cls found <a href="assets/aamas.cls">here</a>. </li>-->
+											<li>Make sure there are no headers or footers (so do not remove the command <code>\fancyhead{}</code>).</li>
+											<li>Every final submission must include an abstract section and keywords (separated by semicolon).</li>
+											<li>Replace the copyright block in the AAMAS template with the following: <br>
+												<code>
+												\setcopyright{none}
+												\acmConference[LSA'22]{Appears at the 1st Workshop on Learning with Strategic Agents (LSA 2022). Held as part of the Workshops at the 21st
+												International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2022)}{May 9--10, 2022}{Online}
+												{N.~Bishop, M.~Han, L.~Tran-Thanh, H.~Xu, H.~Zhang (chairs)}
+												\copyrightyear{2022}
+												\acmYear{2022}
+												\acmDOI{}
+												\acmPrice{}
+												\acmISBN{}
+												\settopmatter{printacmref=false}
+												</code>
+											</li>
+											<li>Replace the original AAMAS template class file with the updated version (download <a href="assets/aamas.cls">here</a>)</li>
 										</ul>
+										If correct, your submission should resemble the example (see <a href="assets/lsa_example.pdf">here</a>) hosted on the LSA website. If you have any queries about formatting or submitting your camera-ready version, please feel free to contact the organizing committee via email (learningwithstrategicagents@gmail.com).
 									</p>
-							<p>If correct, your submission should resemble the example (see <a href="assets/lsa_example.pdf">here</a>) hosted on the LSA website. If you have any queries about formatting or submitting your camera-ready version, please feel free to contact the organizing committee via email (learningwithstrategicagents@gmail.com).</p>
 								</article>
 
 						</div>
