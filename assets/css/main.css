@@ -38,6 +38,11 @@ ol, ul {
 	list-style: none;
 }
 
+code {
+			  background-color:#EEEEEE;
+			  font-family:Courier New,Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
+}
+
 blockquote, q {
 	quotes: none;
 }
