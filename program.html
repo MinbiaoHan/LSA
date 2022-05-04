@@ -15,12 +15,13 @@
 			padding: 5px;
 		}
 		
-		.center {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-right: auto;
-			width: 50%;
+		.column img {
+			display: block;
+			width: 100%;
+		}
+		
+		.column figcaption {
+			text-align: center;
 		}
 	</style>
 	<head>
@@ -176,13 +177,21 @@
 									<div class="row">
 										<div class="column">
 											<figure>
-												<img src="images/panayotis.png" class="center">
-												<figcaption style="text-align: center"> Panayotis Mertikopoulos </figcaption>
+												<img src="images/panayotis.png">
+												<figcaption> 
+													Panayotis Mertikopoulos 
+												</figcaption>
 											</figure>
 										</div>
 										<div class="column">
 											<div class="center">
-												<img src="images/amy.jpg">
+												<figure>
+													<img src="images/amy.jpg">
+													<figcaption>
+														Amy Greenwald
+													</figcaption>
+												</figure>
+												
 												<p style="text-align:center"> Amy Greenwald </p>
 											</div>
 										</div>
